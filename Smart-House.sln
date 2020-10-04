@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{55B8D5FB-9D1A-49C1-A813-92E251CF1C2C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FF241B92-D01D-40C4-8A27-1CCBFACC6AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTests", "tests\ApplicationTests\ApplicationTests.csproj", "{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,7 @@ Global
 		{D707DA97-4867-465A-A4D1-4ECEB7FC222F} = {FE5F037E-BA59-46D8-BCB1-4031B771B187}
 		{07390C7F-0BAB-47ED-8624-654A343FDC6C} = {FE5F037E-BA59-46D8-BCB1-4031B771B187}
 		{55B8D5FB-9D1A-49C1-A813-92E251CF1C2C} = {FE5F037E-BA59-46D8-BCB1-4031B771B187}
+		{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24} = {FF241B92-D01D-40C4-8A27-1CCBFACC6AF7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D707DA97-4867-465A-A4D1-4ECEB7FC222F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -31,5 +36,9 @@ Global
 		{55B8D5FB-9D1A-49C1-A813-92E251CF1C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55B8D5FB-9D1A-49C1-A813-92E251CF1C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55B8D5FB-9D1A-49C1-A813-92E251CF1C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF76CAC6-5815-4DCA-95FD-2E6DAB058F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
